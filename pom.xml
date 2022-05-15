@@ -23,7 +23,7 @@
 	<groupId>org.mitre</groupId>
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>3.1.0-RELEASE</version>
+	<version>3.1.1-SNAPSHOTS</version>
 	<properties>
 		<java-version>1.8</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
@@ -207,12 +207,12 @@
               <repository>
                   <id>Release</id>
                   <name>Release</name>
-                      <url>http://54.80.13.199:8081/repository/Maven_Hosted/</url>
+                      <url>http://15.206.211.124:9090/repository/SimpleWebApp-Release/</url>
               </repository>
               <snapshotRepository>
                   <id>Snapshot</id>
                   <name>Snapshot</name>
-                  <url>http://54.80.13.199:8081/repository/Maven2_HSnap/</url>
+                  <url>http://15.206.211.124:9090/repository/SimpleWebApp-snapshot/</url>
               </snapshotRepository>
  </distributionManagement>
 	
