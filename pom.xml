@@ -148,6 +148,13 @@
 	            </exclusions>
         	</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>Release</id>
+			<url>http://15.206.194.173:9090/repository/SimpleWebApp-Release/</url>
+		</repository>
+	</repositories>
+		
 	<distributionManagement>
               <repository>
                   <id>Release</id>
