@@ -150,19 +150,19 @@
 	</dependencies>
 	<repositories>
 		<repository>
-			<id>Release</id>
+			<id>nexus</id>
 			<url>http://15.206.194.173:9090/repository/SimpleWebApp-Release/</url>
 		</repository>
 	</repositories>
 		
 	<distributionManagement>
               <repository>
-                  <id>Release</id>
+                  <id>nexus</id>
                   <name>Release</name>
                   <url>http://15.206.194.173:9090/repository/SimpleWebApp-Release/</url>
               </repository>
               <snapshotRepository>
-                  <id>Snapshot</id>
+                  <id>nexus</id>
                   <name>Snapshot</name>
                   <url>http://15.206.194.173:9090/repository/SimpleWebApp-snapshot/</url>
               </snapshotRepository>
