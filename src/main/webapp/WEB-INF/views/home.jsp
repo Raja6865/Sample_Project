@@ -9,7 +9,7 @@
 		<div class="span10 offset1">
 
 			<h1>
-				Hello world! WIth Jenkins
+				Hello world! WIth Jenkins, Testing Nexus
 			</h1>
 		
 			<div>
