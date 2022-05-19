@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  tools {
+    maven 'maven3.6.3'
+  }
     stages {
       stage("FetchCodeFromGit") {
         steps {
@@ -7,7 +10,6 @@ pipeline {
         }
       }
         stage("Build") {
-          maven 'maven3.6.3'
           steps {
             sh 'mvn clean package'
           }
