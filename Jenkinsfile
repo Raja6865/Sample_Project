@@ -7,8 +7,8 @@ pipeline {
         }
       }
         stage("Build") {
+          maven 'maven3.6.3'
           steps {
-            maven 'maven3.6.3'
             sh 'mvn clean package'
           }
         }
